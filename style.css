@@ -32,6 +32,12 @@ hr {
     gap: 1rem;
 }
 
+@media (max-width: 500px) {
+    .nav-bar {
+        justify-content: center;
+    }
+}
+
 .nav-list {
     list-style: none;
     display: flex;
