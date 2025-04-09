@@ -97,6 +97,7 @@ hr {
         width: 80vw;
         flex: 2;
     }
+
 }
 
 .welcome-section > div {
@@ -169,4 +170,10 @@ hr {
     width: inherit;
     object-fit: contain;
     border-radius: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .card1 {
+        width: 80vw;
+    }
 }
