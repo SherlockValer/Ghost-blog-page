@@ -29,6 +29,7 @@ hr {
     background-color: black;
     color: white;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .nav-list {
@@ -89,6 +90,13 @@ hr {
 .welcome-section > img {
     width: 550px;
     flex: 2;
+}
+
+@media (max-width: 500px) {
+    .welcome-section > img {
+        width: 80vw;
+        flex: 2;
+    }
 }
 
 .welcome-section > div {
